@@ -1,0 +1,9 @@
+{
+    "appId" : 1,
+    "headerId": "index",
+    "appName" : "Iluxe1",
+    "faviconUrl" : "http://cdn.sstatic.net/stackoverflow/img/favicon.ico",
+	"appleTouchFaviconUrl": "",
+	"skinId":1,
+    "isI18nOn":false
+}

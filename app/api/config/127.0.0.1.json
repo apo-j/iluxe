@@ -1,0 +1,10 @@
+{
+    "appId" : 2,
+    "headerId": "index",
+    "appName" : "",
+	"faviconUrl" : "http://www.w3schools.com/favicon.ico",
+	"appleTouchFaviconUrl": "",
+    "skinId":2,
+    "isI18nOn":true,
+    "pages":["index", "contact", "about"]
+}
