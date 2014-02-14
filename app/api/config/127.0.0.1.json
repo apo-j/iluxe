@@ -1,10 +1,34 @@
 {
     "appId" : 2,
-    "headerId": "index",
-    "appName" : "",
+    "appName" : "sales",
 	"faviconUrl" : "http://www.w3schools.com/favicon.ico",
 	"appleTouchFaviconUrl": "",
     "skinId":2,
     "isI18nOn":true,
-    "pages":["index", "contact", "about"]
+    "pages":[
+		{
+			"id":"123",
+			"headerId": "123",
+			"code":"index",
+			"url":"/",
+			"isIndexPage": true,
+			"layoutUrl":"main"
+		}, 
+		{
+			"id":"456",
+			"headerId": "456",
+			"code":"contact",
+			"url":"/about",
+			"isIndexPage": false,
+			"layoutUrl":"contact"
+		}, 
+		{	
+			"id":"789",
+			"headerId": "789",
+			"code":"about",
+			"url":"/contact",
+			"isIndexPage": false,
+			"layoutUrl":"about"
+		}
+	]
 }
