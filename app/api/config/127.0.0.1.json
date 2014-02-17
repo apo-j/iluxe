@@ -3,32 +3,60 @@
     "appName" : "sales",
 	"faviconUrl" : "http://www.w3schools.com/favicon.ico",
 	"appleTouchFaviconUrl": "",
-    "skinId":2,
+    "styleId":"styles/main.less",
     "isI18nOn":true,
     "pages":[
 		{
-			"id":"123",
-			"headerId": "123",
+			"id":"p123",
+			"title": "index",
+			"state":"index",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
 			"code":"index",
 			"url":"/",
 			"isIndexPage": true,
 			"layoutUrl":"main"
 		}, 
 		{
-			"id":"456",
-			"headerId": "456",
-			"code":"contact",
+			"id":"p456",
+			"title": "about",
+			"state":"about",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
+			"code":"about",
 			"url":"/about",
 			"isIndexPage": false,
-			"layoutUrl":"contact"
+			"layoutUrl":"about"
 		}, 
 		{	
-			"id":"789",
-			"headerId": "789",
-			"code":"about",
+			"id":"p789",
+			"title": "contact",
+			"state":"contact",
+			"pageSecurity":{
+				"requireLogin": true,
+				"passwordDigest": ""
+			},
+			"code":"contact",
 			"url":"/contact",
 			"isIndexPage": false,
-			"layoutUrl":"about"
+			"layoutUrl":"contact"
+		},
+		{	
+			"id":"p7890",
+			"title": "login",
+			"state":"login",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
+			"code":"login",
+			"url":"/login",
+			"isIndexPage": false,
+			"layoutUrl":"login"
 		}
 	]
 }
