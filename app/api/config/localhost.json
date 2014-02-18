@@ -1,9 +1,51 @@
 {
-    "appId" : 1,
+    "appId" : 2,
     "headerId": "index",
     "appName" : "Iluxe1",
     "faviconUrl" : "http://cdn.sstatic.net/stackoverflow/img/favicon.ico",
 	"appleTouchFaviconUrl": "",
 	"skinId":1,
-    "isI18nOn":false
+    "isI18nOn":false,
+	"languageId": 1,
+	"pages":[
+		{	
+			"id":"p1230",
+			"title": "login",
+			"state":"login",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
+			"code":"login",
+			"url":"/login",
+			"isIndexPage": false,
+			"layoutUrl":"contact"
+		},
+		{
+			"id":"p123",
+			"title": "about",
+			"state":"about",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
+			"code":"about",
+			"url":"/about",
+			"isIndexPage": false,
+			"layoutUrl":"about"
+		}, 
+		{
+			"id":"p123",
+			"title": "index",
+			"state":"index",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
+			"code":"index",
+			"url":"/",
+			"isIndexPage": true,
+			"layoutUrl":"main"
+		}
+	]
 }

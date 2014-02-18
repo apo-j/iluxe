@@ -5,6 +5,7 @@
 	"appleTouchFaviconUrl": "",
     "styleId":"styles/main.less",
     "isI18nOn":true,
+	"languageId": 1,
     "pages":[
 		{
 			"id":"p123",
@@ -19,6 +20,19 @@
 			"isIndexPage": true,
 			"layoutUrl":"main"
 		}, 
+		{	
+			"id":"p1230",
+			"title": "login",
+			"state":"login",
+			"pageSecurity":{
+				"requireLogin": false,
+				"passwordDigest": ""
+			},
+			"code":"login",
+			"url":"/login",
+			"isIndexPage": false,
+			"layoutUrl":"contact"
+		},
 		{
 			"id":"p456",
 			"title": "about",
@@ -37,26 +51,13 @@
 			"title": "contact",
 			"state":"contact",
 			"pageSecurity":{
-				"requireLogin": true,
+				"requireLogin": false,
 				"passwordDigest": ""
 			},
 			"code":"contact",
 			"url":"/contact",
 			"isIndexPage": false,
 			"layoutUrl":"contact"
-		},
-		{	
-			"id":"p7890",
-			"title": "login",
-			"state":"login",
-			"pageSecurity":{
-				"requireLogin": false,
-				"passwordDigest": ""
-			},
-			"code":"login",
-			"url":"/login",
-			"isIndexPage": false,
-			"layoutUrl":"login"
 		}
 	]
 }
