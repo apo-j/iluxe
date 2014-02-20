@@ -89,7 +89,7 @@
 			},
 			"code":"spSignin",
 			"url":"/signin",
-			"layoutUrl":"contact"
+			"layoutUrl":"signin"
 		},
 		{
 			"id":"p123",
