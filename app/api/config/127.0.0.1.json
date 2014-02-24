@@ -94,7 +94,7 @@
 		{
 			"id":"p123",
 			"type":"0",
-			"title": "index",
+			"title": "accueil",
 			"state":"index",
 			"pageSecurity":{
 				"requireLogin": false,
