@@ -3,12 +3,12 @@
 	"items":[
 		{
 			"id":100,
-			"type":100,
+			"type":2,
 			"items":[]
 		},
 		{
 			"id":101,
-			"type":101,
+			"type":3,
 			"items":[]
 		}
 	]
