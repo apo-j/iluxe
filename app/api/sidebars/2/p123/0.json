@@ -2,25 +2,26 @@
 	"id":5,
 	"type":5,
 	"templateUrl": "sidebar",
+	"isContainer":true,
 	"items":[
 		{
 			"id":4,
 			"type":4,
 			"templateUrl":"",
-			"isComposite":true,
+			"isContainer":true,
 			"items":[
 				{
 					"id":2,
 					"type":2,
 					"templateUrl":"",
-					"isComposite":false,
+					"isContainer":false,
 					"items":[]
 				},
 				{
 					"id":3,
 					"type":3,
 					"templateUrl":"",
-					"isComposite":false,
+					"isContainer":false,
 					"items":[]
 				}
 			]
@@ -29,14 +30,14 @@
 			"id":2,
 			"type":2,
 			"templateUrl":"",
-			"isComposite":false,
+			"isContainer":false,
 			"items":[]
 		},
 		{
 			"id":3,
 			"type":3,
 			"templateUrl":"",
-			"isComposite":false,
+			"isContainer":false,
 			"items":[]
 		}
 	]
