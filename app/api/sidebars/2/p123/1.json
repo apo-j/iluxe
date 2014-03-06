@@ -1,14 +1,27 @@
 {
+	"id":5,
+	"type":5,
 	"templateUrl": "sidebar",
+	"isContainer":true,
+	"isLoaded": true,
+	"data":{},
 	"items":[
 		{
 			"id":100,
 			"type":2,
+			"templateUrl":"2",
+			"isContainer":true,
+			"isLoaded": true,
+			"data":{},
 			"items":[]
 		},
 		{
 			"id":101,
 			"type":3,
+			"templateUrl":"2",
+			"isContainer":true,
+			"isLoaded": true,
+			"data":{},
 			"items":[]
 		}
 	]
