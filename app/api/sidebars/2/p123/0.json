@@ -2,24 +2,27 @@
 	"id":5,
 	"type":5,
 	"templateUrl": "sidebar",
-	"isContainer":true,
 	"isLoaded": true,
+	"style": "",
+	"css":"",
 	"data":{},
 	"items":[
 		{
 			"id":4,
 			"type":4,
 			"templateUrl":"",
-			"isContainer":true,
 			"isLoaded": true,
+			"style": "",
+			"css":"",
 			"data":{},
 			"items":[
 				{
 					"id":2,
 					"type":2,
 					"templateUrl":"1",
-					"isContainer":false,
 					"isLoaded": true,
+					"style": "",
+					"css":"",
 					"data":{},
 					"items":[]
 				},
@@ -27,8 +30,9 @@
 					"id":3,
 					"type":3,
 					"templateUrl":"1",
-					"isContainer":false,
 					"isLoaded": true,
+					"style": "",
+					"css":"",
 					"data":{},
 					"items":[]
 				}
@@ -38,8 +42,9 @@
 			"id":2,
 			"type":2,
 			"templateUrl":"2",
-			"isContainer":false,
 			"isLoaded": true,
+			"style": "",
+			"css":"",
 			"data":{},
 			"items":[]
 		},
@@ -47,8 +52,10 @@
 			"id":3,
 			"type":3,
 			"templateUrl":"2",
-			"isContainer":false,
 			"isLoaded": false,
+			"style": "",
+			"css":"",
+			"data":{},
 			"items":[]
 		}
 	]
