@@ -5,7 +5,7 @@
 	"isLoaded": true,
 	"style": "",
 	"css":"",
-	"data":{},
+	"data":"03/12/2014",
 	"items":[
 		{
 			"id":4,
@@ -14,7 +14,7 @@
 			"isLoaded": true,
 			"style": "",
 			"css":"",
-			"data":{},
+			"data":"03/12/2014",
 			"items":[
 				{
 					"id":2,
@@ -23,7 +23,7 @@
 					"isLoaded": true,
 					"style": "",
 					"css":"",
-					"data":{},
+					"data":"03/12/2014",
 					"items":[]
 				},
 				{
@@ -33,19 +33,19 @@
 					"isLoaded": true,
 					"style": "",
 					"css":"",
-					"data":{},
+					"data":"03/12/2014",
 					"items":[]
 				}
 			]
 		},
 		{
 			"id":2,
-			"type":2,
+			"type":1,
 			"templateUrl":"2",
 			"isLoaded": true,
 			"style": "",
 			"css":"",
-			"data":{},
+			"data":"03/12/2014",
 			"items":[]
 		},
 		{
@@ -55,7 +55,7 @@
 			"isLoaded": false,
 			"style": "",
 			"css":"",
-			"data":{},
+			"data":"03/12/2014",
 			"items":[]
 		}
 	]
