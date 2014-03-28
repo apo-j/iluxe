@@ -41,7 +41,7 @@
 		{
 			"id":2,
 			"type":1,
-			"templateUrl":"2",
+			"templateUrl":"1",
 			"isLoaded": true,
 			"style": "",
 			"css":"",

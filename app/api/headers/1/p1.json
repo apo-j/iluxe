@@ -1,0 +1,73 @@
+{
+    "id": "index",
+    "templateUrl": "header",
+    "css":"header outer",
+    "style":"border:1px solid red",
+    "top": {
+        "id": "1",
+        "templateUrl": "top-iluxe",
+        "css":"container navbar iluxe-header",
+        "style":"background-color:black;height:100px;width:800px;text-align: center;margin-bottom:0"
+    },
+    "menu": {
+        "id": "1",
+        "templateUrl": "menu",
+        "navbarUrl":"navbar",
+        "navbarItems": [
+            {
+                "name": "Index",
+                "url": "",
+                "items": [
+                    {
+                        "name": "sub1",
+                        "url": "sub1",
+                        "items": [
+                            {
+                                "name": "sub11",
+                                "url": "sub11",
+                                "items": [
+                                    {
+                                        "name": "sub14",
+                                        "url": "",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sub2",
+                        "url": "sub2",
+                        "items": []
+                    },
+                    {
+                        "name": "sub3",
+                        "url": "sub3",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "name": "About",
+                "url": "about",
+                "items": [
+                    {
+                        "name": "sub2",
+                        "url": "sub2",
+                        "items": []
+                    },
+                    {
+                        "name": "sub3",
+                        "url": "sub3",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "name": "Contact",
+                "url": "contact",
+                "items": []
+            }
+        ]
+    }
+}
