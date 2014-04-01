@@ -2,12 +2,12 @@
     "id": "index",
     "templateUrl": "header",
     "css":"header outer",
-    "style":"border:1px solid red",
+    "style":"",
     "top": {
         "id": "1",
         "templateUrl": "top-iluxe",
         "css":"container navbar iluxe-header",
-        "style":"background-color:black;height:100px;width:800px;text-align: center;margin-bottom:0"
+        "style":"height:100px;width:800px;text-align: center;margin-bottom:0"
     },
     "menu": {
         "id": "1",
