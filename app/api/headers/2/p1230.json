@@ -1,4 +1,5 @@
 {
+    "status": 200,
     "id": "index",
     "templateUrl": "header",
     "top": {

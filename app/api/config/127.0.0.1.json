@@ -1,4 +1,5 @@
 {
+    "status": 200,
     "appId" : 2,
     "appName" : "sales",
 	"faviconUrl" : "http://www.w3schools.com/favicon.ico",
