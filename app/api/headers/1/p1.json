@@ -13,62 +13,74 @@
     "menu": {
         "id": "1",
         "templateUrl": "menu",
-        "navbarUrl":"navbar",
-        "navbarItems": [
-            {
-                "name": "Index",
-                "url": "",
-                "items": [
-                    {
-                        "name": "sub1",
-                        "url": "sub1",
-                        "items": [
-                            {
-                                "name": "sub11",
-                                "url": "sub11",
-                                "items": [
-                                    {
-                                        "name": "sub14",
-                                        "url": "",
-                                        "items": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "sub2",
-                        "url": "sub2",
-                        "items": []
-                    },
-                    {
-                        "name": "sub3",
-                        "url": "sub3",
-                        "items": []
-                    }
-                ]
-            },
-            {
-                "name": "About",
-                "url": "about",
-                "items": [
-                    {
-                        "name": "sub2",
-                        "url": "sub2",
-                        "items": []
-                    },
-                    {
-                        "name": "sub3",
-                        "url": "sub3",
-                        "items": []
-                    }
-                ]
-            },
-            {
-                "name": "Contact",
-                "url": "contact",
-                "items": []
-            }
-        ]
+        "navbar":{
+            "id": "1",
+            "templateUrl": "navbar",
+            "itemTemplateUrl":"navbar-item",
+            "items": [
+                {
+                    "name": "Index",
+                    "level": 0,
+                    "url": "",
+                    "items": [
+                        {
+                            "name": "sub1",
+                            "level": 1,
+                            "url": "sub1",
+                            "items": [
+                                {
+                                    "name": "sub11",
+                                    "level": 2,
+                                    "url": "sub11",
+                                    "items": [
+                                        {
+                                            "name": "sub14",
+                                            "level": 3,
+                                            "url": "",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "sub2",
+                            "level": 1,
+                            "url": "sub2",
+                            "items": []
+                        },
+                        {
+                            "name": "sub3",
+                            "level": 1,
+                            "url": "sub3",
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "name": "About",
+                    "level": 0,
+                    "url": "about",
+                    "items": [
+                        {
+                            "name": "sub2",
+                            "url": "sub2",
+                            "items": []
+                        },
+                        {
+                            "name": "sub3",
+                            "url": "sub3",
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Contact",
+                    "level": 0,
+                    "url": "contact",
+                    "items": []
+                }
+            ]
+        }
     }
 }
