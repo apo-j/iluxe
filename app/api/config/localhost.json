@@ -1,31 +1,30 @@
 {
-    "status":200,
+    "status": 200,
     "appId" : 1,
-    "appName" : "Iluxe-Privee",
+    "appName" : "tt",
     "faviconUrl" : "http://www.w3schools.com/favicon.ico",
     "appleTouchFaviconUrl": "",
     "styleId":"styles/iluxe.less",
     "isI18nOn":false,
     "languageId": 1,
-    "specialPages":[
+    "pages":[
         {
             "id":"p1001",
             "type":"100",
             "title": "Sign in",
-            "state":"signin",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
             },
             "code":"spSignin",
             "url":"/signin",
-            "layoutUrl":"contact"
+            "layoutUrl":"contact",
+            "ctrl": "NavigationCtrl"
         },
         {
             "id":"p1002",
             "type":"101",
             "title": "Sign up",
-            "state":"signup",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
@@ -33,13 +32,13 @@
             "code":"spSignup",
             "url":"/signup",
             "isIndexPage": false,
-            "layoutUrl":"contact"
+            "layoutUrl":"contact",
+            "ctrl": "NavigationCtrl"
         },
         {
             "id":"p1003",
             "type":"102",
             "title": "Not found",
-            "state":"404",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
@@ -47,27 +46,13 @@
             "code":"sp404",
             "url":"/404",
             "isIndexPage": false,
-            "layoutUrl":"contact"
+            "layoutUrl":"40401",
+            "ctrl": "NavigationCtrl"
         },
         {
             "id":"p1004",
-            "type":"104",
-            "title": "Unauthorized",
-            "state":"401",
-            "pageSecurity":{
-                "requireLogin": false,
-                "passwordDigest": ""
-            },
-            "code":"sp401",
-            "url":"/401",
-            "isIndexPage": false,
-            "layoutUrl":"contact"
-        },
-        {
-            "id":"p1005",
             "type":"103",
             "title": "Server error",
-            "state":"500",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
@@ -75,15 +60,27 @@
             "code":"sp500",
             "url":"/500",
             "isIndexPage": false,
-            "layoutUrl":"contact"
-        }
-    ],
-    "pages":[
+            "layoutUrl":"50001",
+            "ctrl": "NavigationCtrl"
+        },
+        {
+            "id":"p1005",
+            "type":"104",
+            "title": "Unauthorized",
+            "pageSecurity":{
+                "requireLogin": false,
+                "passwordDigest": ""
+            },
+            "code":"sp401",
+            "url":"/401",
+            "isIndexPage": false,
+            "layoutUrl":"contact",
+            "ctrl": "NavigationCtrl"
+        },
         {
             "id":"p1",
             "type":"0",
             "title": "Iluxe-Privee",
-            "state":"index",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
@@ -91,13 +88,13 @@
             "code":"index",
             "url":"/",
             "isIndexPage": true,
-            "layoutUrl":"main"
+            "layoutUrl":"main",
+            "ctrl": "NavigationCtrl"
         },
         {
             "id":"p2",
             "type":"0",
             "title": "about",
-            "state":"about",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
@@ -105,13 +102,13 @@
             "code":"about",
             "url":"/about",
             "isIndexPage": false,
-            "layoutUrl":"about"
+            "layoutUrl":"about",
+            "ctrl": "NavigationCtrl"
         },
         {
             "id":"p3",
             "type":"0",
             "title": "contact",
-            "state":"contact",
             "pageSecurity":{
                 "requireLogin": false,
                 "passwordDigest": ""
@@ -119,7 +116,8 @@
             "code":"contact",
             "url":"/contact",
             "isIndexPage": false,
-            "layoutUrl":"contact"
+            "layoutUrl":"contact",
+            "ctrl": "NavigationCtrl"
         }
     ]
 }
