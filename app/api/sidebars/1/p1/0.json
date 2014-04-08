@@ -22,6 +22,7 @@
                     "type":5,
                     "templateUrl":"1",
                     "isLoaded": true,
+                    "url":"/",
                     "style": "",
                     "css":"",
                     "data":"Balenciaga 巴黎世家",
