@@ -30,7 +30,7 @@
                 {
                     "id":3,
                     "type":5,
-                    "templateUrl":"2",
+                    "templateUrl":"1",
                     "isLoaded": true,
                     "style": "",
                     "css":"",
@@ -40,7 +40,7 @@
                 {
                     "id":3,
                     "type":5,
-                    "templateUrl":"2",
+                    "templateUrl":"1",
                     "isLoaded": true,
                     "style": "",
                     "css":"",
