@@ -1,0 +1,63 @@
+{
+    "status": 200,
+    "id":5,
+    "type":6,
+    "templateUrl": "sidebar",
+    "isLoaded": true,
+    "style": "",
+    "css":"",
+    "data":"",
+    "items":[
+        {
+            "id":4,
+            "type":4,
+            "templateUrl":"list",
+            "isLoaded": true,
+            "style": "",
+            "css":"",
+            "data":"",
+            "items":[
+                {
+                    "id":2,
+                    "type":5,
+                    "templateUrl":"1",
+                    "isLoaded": true,
+                    "style": "",
+                    "css":"",
+                    "data":"Balenciaga 巴黎世家",
+                    "items":[]
+                },
+                {
+                    "id":3,
+                    "type":5,
+                    "templateUrl":"2",
+                    "isLoaded": true,
+                    "style": "",
+                    "css":"",
+                    "data":"Buberry 巴宝莉",
+                    "items":[]
+                },
+                {
+                    "id":3,
+                    "type":5,
+                    "templateUrl":"2",
+                    "isLoaded": true,
+                    "style": "",
+                    "css":"",
+                    "data":"Cartier 卡地亚",
+                    "items":[]
+                },
+                {
+                    "id":3,
+                    "type":5,
+                    "templateUrl":"1",
+                    "isLoaded": true,
+                    "style": "",
+                    "css":"",
+                    "data":"Chanel 香奈儿",
+                    "items":[]
+                }
+             ]
+        }
+    ]
+}

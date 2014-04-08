@@ -29,61 +29,117 @@
                     ]
                 },
                 {
-                    "name": "About",
+                    "name": "箱包",
                     "level": 0,
                     "url": "about",
                     "items": [
                         {
-                            "name": "sub2",
+                            "name": "男式",
                             "url": "sub2",
                             "items": []
                         },
                         {
-                            "name": "sub3",
+                            "name": "女式",
                             "url": "sub3",
                             "items": []
                         }
                     ]
                 },
                 {
-                    "name": "Contact",
+                    "name": "衣帽",
                     "level": 0,
                     "url": "contact",
                     "items": [
                         {
-                            "name": "sub1",
+                            "name": "男式",
                             "level": 1,
                             "url": "sub1",
                             "items": []
                         },
                         {
-                            "name": "sub2",
+                            "name": "女式",
                             "level": 1,
                             "url": "sub2",
-                            "items": [
-                                {
-                                    "name": "sub11",
-                                    "level": 2,
-                                    "url": "sub11",
-                                    "items": [
-                                        {
-                                            "name": "sub14",
-                                            "level": 3,
-                                            "url": "",
-                                            "items": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "sub3",
-                            "level": 1,
-                            "url": "sub3",
                             "items": []
                         }
                     ]
+                },
+                {
+                    "name": "鞋履",
+                    "level": 0,
+                    "url": "contact",
+                    "items": [
+                        {
+                            "name": "男式",
+                            "level": 1,
+                            "url": "sub1",
+                            "items": []
+                        },
+                        {
+                            "name": "女式",
+                            "level": 1,
+                            "url": "sub2",
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "name": "珠宝",
+                    "level": 0,
+                    "url": "contact",
+                    "items": [
+                        {
+                            "name": "男式",
+                            "level": 1,
+                            "url": "sub1",
+                            "items": []
+                        },
+                        {
+                            "name": "女式",
+                            "level": 1,
+                            "url": "sub2",
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "name": "化妆品",
+                    "level": 0,
+                    "url": "contact",
+                    "items": [
+                        {
+                            "name": "男式",
+                            "level": 1,
+                            "url": "sub1",
+                            "items": []
+                        },
+                        {
+                            "name": "女式",
+                            "level": 1,
+                            "url": "sub2",
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "name": "母婴",
+                    "level": 0,
+                    "url": "contact",
+                    "items": []
+                },
+                {
+                    "name": "二手",
+                    "level": 0,
+                    "url": "contact",
+                    "items": []
+                },
+                {
+                    "name": "优惠促销",
+                    "level": 0,
+                    "url": "contact",
+                    "items": []
                 }
+
             ]
         }
     }
