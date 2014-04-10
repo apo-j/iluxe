@@ -30,18 +30,21 @@
                 },
                 {
                     "name": "衣帽",
-                    "isRoot": true,
                     "url": "contact",
                     "items": [
                         {
                             "name": "男式",
-                            "isRoot": false,
                             "url": "sub1",
-                            "items": []
+                            "items": [
+								{
+									"name": "男式",
+									"url": "sub2",
+									"items": []
+								}
+							]
                         },
                         {
                             "name": "女式",
-                            "isRoot": false,
                             "url": "sub2",
                             "items": []
                         }
@@ -49,18 +52,15 @@
                 },
                 {
                     "name": "箱包",
-                    "isRoot": true,
                     "url": "about",
                     "items": [
                         {
                             "name": "男式",
-                            "isRoot": false,
                             "url": "sub2",
                             "items": []
                         },
                         {
                             "name": "女式",
-                            "isRoot": false,
                             "url": "sub3",
                             "items": []
                         }
@@ -68,18 +68,15 @@
                 },
                 {
                     "name": "鞋履",
-                    "isRoot": true,
                     "url": "contact",
                     "items": [
                         {
                             "name": "男式",
-                            "isRoot": false,
                             "url": "sub1",
                             "items": []
                         },
                         {
                             "name": "女式",
-                            "isRoot": false,
                             "url": "sub2",
                             "items": []
                         }
@@ -87,18 +84,15 @@
                 },
                 {
                     "name": "珠宝",
-                    "isRoot": true,
                     "url": "contact",
                     "items": [
                         {
                             "name": "男式",
-                            "isRoot": false,
                             "url": "sub1",
                             "items": []
                         },
                         {
                             "name": "女式",
-                            "isRoot": false,
                             "url": "sub2",
                             "items": []
                         }
@@ -106,18 +100,15 @@
                 },
                 {
                     "name": "化妆品",
-                    "isRoot": true,
                     "url": "contact",
                     "items": [
                         {
                             "name": "男式",
-                            "isRoot": false,
                             "url": "sub1",
                             "items": []
                         },
                         {
                             "name": "女式",
-                            "isRoot": false,
                             "url": "sub2",
                             "items": []
                         }
@@ -125,19 +116,16 @@
                 },
                 {
                     "name": "母婴",
-                    "isRoot": true,
                     "url": "contact",
                     "items": []
                 },
                 {
                     "name": "二手",
-                    "isRoot": true,
                     "url": "contact",
                     "items": []
                 },
                 {
                     "name": "优惠促销",
-                    "isRoot": true,
                     "url": "contact",
                     "items": []
                 }
