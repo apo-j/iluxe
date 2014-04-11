@@ -29,6 +29,28 @@
                 ]
             },
             "items":[]
+        },
+		{
+            "id":4,
+            "type":7,
+            "templateUrl":"2",
+            "isLoaded": true,
+            "style": "",
+            "css":"",
+            "data":{
+                "searchId": "123456789",
+                "criteria":[
+                    {
+                        "name":"criteria1",
+                        "val": ""
+                    } ,
+                    {
+                        "name": "criteria2",
+                        "val": ""
+                    }
+                ]
+            },
+            "items":[]
         }
 
     ]
