@@ -3,5 +3,5 @@
     "id": "p1",
     "templateUrl":"components/accordion/1",
     "title": "Home",
-    "tt": "dd"
+    "searchId": "123456"
 }
