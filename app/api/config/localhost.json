@@ -78,6 +78,20 @@
             "ctrl": "NavigationCtrl"
         },
         {
+            "id":"p2",
+            "type":"105",
+            "title": "Search result",
+            "pageSecurity":{
+                "requireLogin": false,
+                "passwordDigest": ""
+            },
+            "code":"sr",
+            "url":"/search-result",
+            "isIndexPage": false,
+            "layoutUrl":"main",
+            "ctrl": "NavigationCtrl"
+        },
+        {
             "id":"p1",
             "type":"0",
             "title": "Iluxe-Privee",
@@ -89,20 +103,6 @@
             "url":"/",
             "isIndexPage": true,
             "layoutUrl":"main",
-            "ctrl": "NavigationCtrl"
-        },
-        {
-            "id":"p2",
-            "type":"0",
-            "title": "about",
-            "pageSecurity":{
-                "requireLogin": false,
-                "passwordDigest": ""
-            },
-            "code":"about",
-            "url":"/about",
-            "isIndexPage": false,
-            "layoutUrl":"about",
             "ctrl": "NavigationCtrl"
         },
         {
